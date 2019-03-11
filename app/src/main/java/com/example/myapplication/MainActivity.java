@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void helloButtonClicked(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("name", "장혁재");
+        intent.putExtra("name", "최성규");
         startActivity(intent);
     }
 }
